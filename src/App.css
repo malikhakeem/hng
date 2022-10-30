@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --username-color: #101828;
+    --Font-family: 'Inter';
+    --Links-background: #EAECF0;
+    --Links-color: #101828;
+}

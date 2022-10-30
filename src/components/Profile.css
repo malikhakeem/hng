@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    text-align: center; */
+    padding: 0px 0px 40px 0px;
+}
+
+#twitter a {
+    font-family: var(--Font-family);
+    color: var(--username-color);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.twitter-container {
+    padding: 20px 0px 10px 0px;
+}
+
+.io {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+.back {
+    padding-bottom: 170px;
+}
+
+.mo {
+    padding-right: 150px;
+}
+
+@media (max-width:720px) {
+    .mo {
+        padding: 0px;
+        margin: 0px;
+        padding-right: 130px;
+    }
+    .io {
+        padding-left: 235px;
+    }
+    .back {
+        background-image: url("../images/Type=more, State=Default.png");
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+    .wo {
+        display: none;
+    }
+}
+
+@media (max-width:570px) {
+    .mo {
+        padding: 0px;
+        margin: 0px;
+        padding-right: 110px;
+    }
+    .io {
+        padding-left: 210px;
+    }
+}
+
+@media (max-width:530px) {
+    .mo {
+        padding: 0px;
+        margin: 0px;
+        padding-right: 110px;
+    }
+    .io {
+        padding-left: 190px;
+    }
+}
+
+@media (max-width:500px) {
+    .mo {
+        padding: 0px;
+        margin: 0px;
+        padding-right: 100px;
+    }
+    .io {
+        padding-left: 150px;
+    }
+}
+
+.slack-usernamecont {
+    display: none;
+}

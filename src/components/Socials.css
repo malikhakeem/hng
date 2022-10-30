@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px 60px 0px;
+}
+
+.slack-container {
+    padding-right: 20px;
+}
+
+@media (max-width:720px) {
+    .socials-container {
+        display: none;
+    }
+}
