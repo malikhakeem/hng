@@ -21,7 +21,7 @@
     padding: 20px 30px 10px 0px;
 }
 
-.io {
+.profiles {
     display: flex;
     align-items: center;
     text-align: center;
@@ -39,12 +39,12 @@
     padding-left: 80px;
 }
 
-.mo {
+.profiles-sub {
     padding-right: 150px;
 }
 
 @media (max-width:720px) {
-    .lo {
+    .back-container {
         padding-left: 80px;
     }
     .profile__img__container {

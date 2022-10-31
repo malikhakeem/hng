@@ -4,15 +4,15 @@ import Profileimg from "../images/profile.png";
 import backimg from "../images/_Avatar share button.png";
 function Profile() {
   return (
-    <div className="io">
-      <div className="mo">
+    <div className="profiles">
+      <div className="profiles-sub">
         <div className="profile-container">
           <div className="profile__img__container">
             <div id="profile__img">
               <img src={Profileimg} />
             </div>
 
-            <div className="lo">
+            <div className="back-container">
               <div className="back">
                 <img className="wo" src={backimg} />
               </div>
