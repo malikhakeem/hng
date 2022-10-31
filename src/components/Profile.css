@@ -45,10 +45,10 @@
 
 @media (max-width:720px) {
     .back-container {
-        padding-left: 80px;
+        padding-left: 70px;
     }
     .profile__img__container {
-        padding-left: 235px;
+        padding-left: 225px;
     }
     .back {
         background-image: url("../images/Type=more, State=Default.png");
