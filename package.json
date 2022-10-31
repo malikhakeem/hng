@@ -1,8 +1,9 @@
 {
+
     "name": "task-1",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://malikhakeem.github.io/HNG-TASK-1/",
+    "homepage": "https://malikhakeem.github.io/hng",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",

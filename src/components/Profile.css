@@ -6,8 +6,6 @@
 .profile-container {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    text-align: center; */
     padding: 0px 0px 40px 0px;
 }
 
@@ -20,7 +18,7 @@
 }
 
 .twitter-container {
-    padding: 20px 0px 10px 0px;
+    padding: 20px 30px 10px 0px;
 }
 
 .io {
@@ -33,7 +31,12 @@
 }
 
 .back {
-    padding-bottom: 170px;
+    padding-left: 80px;
+}
+
+.profile__img__container {
+    display: flex;
+    padding-left: 80px;
 }
 
 .mo {
@@ -41,12 +44,10 @@
 }
 
 @media (max-width:720px) {
-    .mo {
-        padding: 0px;
-        margin: 0px;
-        padding-right: 130px;
+    .lo {
+        padding-left: 80px;
     }
-    .io {
+    .profile__img__container {
         padding-left: 235px;
     }
     .back {
@@ -57,39 +58,6 @@
     }
     .wo {
         display: none;
-    }
-}
-
-@media (max-width:570px) {
-    .mo {
-        padding: 0px;
-        margin: 0px;
-        padding-right: 110px;
-    }
-    .io {
-        padding-left: 210px;
-    }
-}
-
-@media (max-width:530px) {
-    .mo {
-        padding: 0px;
-        margin: 0px;
-        padding-right: 110px;
-    }
-    .io {
-        padding-left: 190px;
-    }
-}
-
-@media (max-width:500px) {
-    .mo {
-        padding: 0px;
-        margin: 0px;
-        padding-right: 100px;
-    }
-    .io {
-        padding-left: 150px;
     }
 }
 

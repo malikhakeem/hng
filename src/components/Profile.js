@@ -11,6 +11,12 @@ function Profile() {
             <div id="profile__img">
               <img src={Profileimg} />
             </div>
+
+            <div className="lo">
+              <div className="back">
+                <img className="wo" src={backimg} />
+              </div>
+            </div>
           </div>
 
           <div className="twitter-container">
@@ -23,10 +29,6 @@ function Profile() {
             <div id="slack-username">@malik</div>
           </div>
         </div>
-      </div>
-
-      <div className="back">
-        <img className="wo" src={backimg} />
       </div>
     </div>
   );

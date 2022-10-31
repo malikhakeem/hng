@@ -12,14 +12,14 @@
     justify-content: center;
     background: #EAECF0;
     border-radius: 8px;
-    padding-top: 50px;
+    padding-top: 40px;
     filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
 }
 
 .links-container a {}
 
 .link-wrap {
-    height: 76px;
+    height: 60px;
 }
 
 .links-wrap a {
@@ -31,4 +31,22 @@
 
 .links-wrap {
     padding: 10px 150px 20px 150px;
+}
+
+@media (max-width:375px) {
+    .links-wrap {
+        padding: 20px 30px 0px 30px;
+    }
+}
+
+@media (max-width:428px) {
+    .links-wrap {
+        padding: 20px 30px 0px 30px;
+    }
+    .link-wrap {
+        height: 50px;
+    }
+    .links-container {
+        padding-top: 30px;
+    }
 }

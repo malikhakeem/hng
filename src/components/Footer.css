@@ -26,24 +26,23 @@
     font-size: 28px;
     font-family: var(--Font-family);
     font-weight: 900;
-    padding-bottom: 9px;
+    padding-bottom: 10px;
 }
 
 .footer-wrap {
     padding: 0px 140px 0px 140px;
 }
 
-.line {
-    padding: 0px 5px 0px 5px;
-}
-
-@media (max-width:720px) {
+@media (max-width:900px) {
     .footer-container {
         flex-direction: column;
         align-items: flex-start;
         text-align: none;
     }
+}
+
+@media (max-width:375px) {
     .footer-wrap {
-        padding: 0px 150px 0px 150px;
+        padding: 40px 25px 0px 25px;
     }
 }
